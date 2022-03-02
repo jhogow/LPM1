@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos e Exercicios de Linguagem de Programação - Modulo 1 - Noturno</title>
+</head>
+
+<body>
+    <script>
+        /*(Exemplo 1)
+        alert("Bem vindo ao mundo javaScript!")
+        confirm("Essa janela será fechada")
+        document.write("Bem vindo ao Mundo JavaScript!")
+        prompt("Digite seu nome")*/
+
+        /*(Exemplo 2) - variaveis
+        var nome = "Diogo Gonzaga"
+        alert(nome)*/
+
+        /*(Exemplo 3) - variaveis
+        var nome = prompt("Qual é o seu nome?")
+        alert("Olá " + nome)*/
+
+        /*Exercicios*/
+
+        /*1
+        var meuTime = prompt("Qual é o seu time?")
+        alert("O " + meuTime + " não será campeão!")*/
+
+        /*2
+        var nome = "Diogo"
+        var sobrenome = "Gonzaga"
+        alert(nome + " " + sobrenome)/*
+
+        /*(Exemplo 4)
+        var a = 20    
+        var b = a * 2   //b = 40
+        var c = a /2    //c = 10
+        var d = a - 2   //d = 18
+        var e = a + 2   //e = 22
+        var f = a + b + c + d + e
+        alert("e: " + f)*/
+
+        /*a)
+        var numero = prompt("Digite um numero e descubra o dobro:")
+        alert("O dobro de " + numero + " é " + numero * 2)*/
+
+        /*3
+        var n = prompt("Digite um numero e descubra o anterior e o posterior:")
+        var a = Number(n) + 1
+        var b = n - 1
+        alert("O numero anterior é " + b + " e o posterior é " + a + "!")*/
+
+        /*4 - (Usando apenas js)
+        var preçoPorKg = prompt("Digite o preço do quilo:")
+        var gramasConsumidas = prompt("Digite a quantigade consumida (gr)")
+        alert("A pagar:R$ " + preçoPorKg*gramasConsumidas)*/
+
+        /*5
+        var n1 = prompt("Digite a nota do primeira prova")
+        var n2 = prompt("Digite a nota da segunda prova")
+        alert("Sua nota é: " + n1 * n2 / 2 + ".")*/
+
+        /*6
+        var totalConta = prompt("Digite o valor total da conta")
+        var pagantes = prompt("Digite o numero de clientes na mesa")
+        alert("O valor dividido para cada cliente é de " + "\n" + totalConta / pagantes + ".")*/
+
+        /*7
+        var valorJantar = prompt("Informe o valor consumido")
+        var gorjeta = valorJantar*0.10
+        var total  = Number(valorJantar) + gorjeta
+        alert("O total a ser pago é de " + total + "." + "\n" + "Sendo: " + gorjeta + " a taxa de atendimento do garçom.")*/
+
+        /*8 ("Number" durante a soma, sempre vira na variavel que aparece primeiro,no momento que escreve o codigo, nesse caso "nHora")
+        var nDia = prompt("Digite os dias:")
+        var nHora = prompt("Digite as horas:")
+        var nDtotal = nDia*24
+        var nHtotal = nDtotal + Number(nHora)
+        alert("Sua viagem terá duração total de: " + nHtotal + " horas.")*/
+
+        /*9
+        var valorProduto = prompt("Informe o valor do produto para saber as condições de pagamento:")
+        var valorDesconto = valorProduto * 0.10
+        var descontoProduto = valorProduto - valorDesconto
+        var parcelaProduto = valorProduto / 3
+        alert("Preço do Produto: R$" + valorProduto + "\n" + "À vista: R$" + descontoProduto + "\n" +
+            "Ou em 3x sem juros de: R$" + parcelaProduto)*/
+    </script>
+</body>
+
+</html>
